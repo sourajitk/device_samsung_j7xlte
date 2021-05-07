@@ -1,4 +1,4 @@
-# all unpinned blobs come from SM-A710F stock (A710FXXU2CRK1)
+# all unpinned blobs come from SM-J710FN stock (J710FNDDS1BSG1)
 
 # Bluetooth
 vendor/firmware/bcm43454_V0161.0287.hcd
