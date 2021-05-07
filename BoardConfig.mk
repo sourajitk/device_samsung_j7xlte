@@ -17,9 +17,9 @@
 # Inherit from universal7580-common
 include device/samsung/universal7580-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/a7xelte
+LOCAL_PATH := device/samsung/j7xlte
 
-TARGET_OTA_ASSERT_DEVICE := a7xelte,a7xeltexx,a7xelteub,a7xeltedo
+TARGET_OTA_ASSERT_DEVICE := j7xlte,j7xltexx,j7xlteub,j7xltedo
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
@@ -38,7 +38,7 @@ BOARD_PROVIDES_LIBRIL := true
 BOARD_NEEDS_ROAMING_PROTOCOL_FIELD := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_a7xelte
+TARGET_INIT_VENDOR_LIB := libinit_j7xlte
 
 # Partitions
 BOARD_HAS_NO_MISC_PARTITION:= false
@@ -52,7 +52,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 13514047488
 BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_a7xelte_defconfig
+TARGET_KERNEL_CONFIG := lineageos_j7xlte_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
