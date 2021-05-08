@@ -38,7 +38,7 @@ BOARD_PROVIDES_LIBRIL := true
 BOARD_NEEDS_ROAMING_PROTOCOL_FIELD := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_j7xlte
+#TARGET_INIT_VENDOR_LIB := libinit_j7xlte
 
 # Partitions
 BOARD_HAS_NO_MISC_PARTITION:= false
