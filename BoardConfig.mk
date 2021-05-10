@@ -53,7 +53,6 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_j7xlte_defconfig
-BOARD_KERNEL_PREBUILT_DT := $(LOCAL_PATH)/dt.img
 
 # Manifest
 DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
