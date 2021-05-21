@@ -19,7 +19,7 @@ include device/samsung/universal7580-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/j7xlte
 
-TARGET_OTA_ASSERT_DEVICE := j7xlte,j7xltexx,j7xlteub,j7xltedo
+TARGET_OTA_ASSERT_DEVICE := j7xlte,j7xltexx,j7xlteub,j7xltedo,j7xeltezh,j7xeltecmcc
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
